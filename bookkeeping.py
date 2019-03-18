@@ -16,8 +16,4 @@ for p in products:
 with open('products.csv', 'w', encoding='utf-8') as f:
     f.write('商品名稱,商品價格\n')
     for p in products:
-<<<<<<< HEAD
         f.write(p[0] + ',' + p[1] + '\n')
-=======
-        f.write(p[0] + ',' + p[1] + '\n')
->>>>>>> 35bdff83ce85ca78f270dc7acfd9ed9856410f83
